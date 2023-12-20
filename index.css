@@ -1,0 +1,320 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+body {
+  background: #fff;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 5%;
+}
+
+.logo {
+  width: 180px;
+}
+
+.navbar {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  align-items: center;
+  /* border-bottom: 0.3px solid #b1b1b1; */
+}
+
+.navbar li {
+  margin-left: 30px;
+}
+
+.navbar li a {
+  text-decoration: none;
+  font-weight: 400;
+  color: #1d2c3c;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.nav-btn {
+  font-size: 14px;
+  font-weight: 700;
+  margin-left: 40px;
+  height: 40px;
+  color: #1d2c3c;
+  width: 91px;
+  border-radius: 5px;
+  border: 0.5px solid #0f0f0f;
+}
+
+/*---------- End here ------- */
+.main-container {
+  margin: 0;
+  /* background: greenyellow; */
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 5% 12%;
+}
+
+.box {
+  display: flex;
+  width: 892px;
+  height: 795px;
+}
+
+.twin-inputs {
+  display: flex;
+  margin-bottom: 20px;
+}
+.card-1 {
+  width: 892px;
+  height: 795px;
+  padding: 40px;
+  background: #fff;
+  border: none;
+  box-shadow: 0px 5px 10px 5px rgba(0, 0, 0, 0.06);
+}
+
+.tittle {
+  width: 580px;
+  height: 80px;
+
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 36px;
+  color: #1d2c3c;
+  margin-bottom: 20px;
+}
+.tittle h1 {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/*--------- Basic info ----- */
+.basic-info {
+  width: 580px;
+  height: 221px;
+
+  margin-bottom: 20px;
+}
+.details {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+#mr {
+  margin-left: 25px;
+}
+label {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16.8px;
+  color: #1d2c3c;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.inp-1 {
+  width: 227px;
+  height: 60px;
+}
+
+.inp-2 {
+  width: 227px;
+  height: 60px;
+
+  /* margin-left: 25px; */
+}
+
+.inp-3 {
+  width: 370px;
+  height: 60px;
+}
+.inp-4 {
+  width: 270px;
+  height: 60px;
+}
+.inp-5,
+.inp-6 {
+  width: 101px;
+  height: 60px;
+}
+
+input {
+  background: #edeff2;
+  height: 36px;
+  width: 226px;
+  border: none;
+  padding: 20px;
+}
+input::placeholder {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.8px;
+  color: #64637a;
+}
+
+/* payment info */
+.p-info {
+  width: 580px;
+  height: 154px;
+  margin-top: 10px;
+  margin-bottom: 25px;
+}
+
+/* button */
+.send {
+  width: 483px;
+  height: 146.1px;
+}
+
+.btn {
+  width: 483px;
+  height: 52px;
+  background: #038e7d;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  border: none;
+}
+
+.end {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.end p {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16.8px;
+  color: #1d2c3c;
+}
+
+.dont {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.8px;
+  color: #64637a;
+  text-decoration: none;
+  margin-left: 5px;
+}
+
+/*----------- Card 2 starts here --------- */
+.card-2 {
+  color: #fff;
+  width: 312px;
+  height: 795px;
+  padding: 17px;
+  background: #1179bf;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  margin-top: 20px;
+}
+
+.price {
+  margin-top: 15px;
+  display: flex;
+  margin-bottom: 10px;
+}
+.dollar {
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 18px;
+}
+.amount b {
+  font-size: 60px;
+  font-weight: 300;
+  line-height: 72px;
+}
+
+.ticks {
+  margin-bottom: 27px;
+}
+
+.par-1 {
+  font-size: 16px;
+  font-style: italic;
+  margin-bottom: 25px;
+  max-width: 180px;
+}
+
+.ticks li {
+  font-size: 16px;
+  list-style: none;
+  line-height: 24px;
+  margin-bottom: 10px;
+}
+
+.icon {
+  color: #fff;
+  background: #1179bf;
+  margin-right: 10px;
+}
+
+.last {
+  font-size: 16px;
+  line-height: 19.2px;
+  margin-bottom: 35px;
+}
+
+.l-a {
+  color: #b9f5ff;
+  font-size: 16px;
+}
+
+.quote {
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 700;
+  color: #e6e5e5;
+  border-top: 0.5px solid #abb0be;
+  padding-top: 30px;
+}
+
+.spa {
+  font-style: italic bold;
+  color: #fff;
+}
+.profile {
+  display: flex;
+  align-items: center;
+  margin: 15px 0px;
+}
+.profile h3 {
+  font-size: 16px;
+  margin-left: 15px;
+}
+
+.pic {
+  width: 40px;
+  height: 40px;
+}
+
+.copyright {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.copyright p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.8px;
+  color: #636b6f;
+}
+
+.cop {
+  font-size: 14px;
+  font-weight: 400;
+  color: #31708f;
+  line-height: 16.8px;
+}
